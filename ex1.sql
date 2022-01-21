@@ -123,7 +123,7 @@ FROM orders a,customer b
 WHERE a.customer_id=b.customer_id 
 AND a.purch_amt BETWEEN 500 AND 2000;
 
---write a SQL query to find the salesperson(s) and the customer(s) he handle. Return Customer Name, city, Salesman, commission
+--SQL query to find the salesperson(s) and the customer(s) he handle. Return Customer Name, city, Salesman, commission
 SELECT a.cust_name AS "Customer Name", 
 a.city, b.name AS "Salesman", b.commission 
 FROM customer a 
