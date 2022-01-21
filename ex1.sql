@@ -131,7 +131,7 @@ INNER JOIN salesman b
 ON a.salesman_id=b.salesman_id;
 
 
---write a SQL query to find those salespersons who received a commission from the company more than 12%. Return Customer Name, customer city, Salesman, commission.
+--SQL query to find those salespersons who received a commission from the company more than 12%. Return Customer Name, customer city, Salesman, commission.
 SELECT a.cust_name AS "Customer Name", 
 a.city, b.name AS "Salesman", b.commission 
 FROM customer a 
